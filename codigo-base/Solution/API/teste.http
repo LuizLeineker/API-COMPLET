@@ -1,0 +1,25 @@
+### CREATE
+POST http://localhost:5245/api/tarefas/cadastro
+Content-Type: application/json
+
+{
+    "nome": "teste"
+}
+
+### LIST
+GET http://localhost:5245/api/tarefas/listar
+
+### SEARCH
+GET http://localhost:5245/api/tarefas/buscar/2
+
+### DELETE
+DELETE http://localhost:5245/api/tarefas/remove/2
+
+
+### UPDATE
+PUT http://localhost:5245/api/tarefas/atualizar/3
+Content-Type: application/json
+
+{
+    "nome": "EL PRIMO"
+}
